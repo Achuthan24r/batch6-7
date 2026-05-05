@@ -1,0 +1,40 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration-line: none;
+}
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    height: auto;
+    width: 100%;
+ }   
+ li{
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 10, 10);
+    
+ }
+li,a{
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 10, 10);
+    border-radius:10px ;
+    text-align: center;
+    padding: 19px;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
