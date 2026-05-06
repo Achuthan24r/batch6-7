@@ -2,7 +2,7 @@ ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+
     gap: 20px;
     text-decoration-line: none;
 }
@@ -30,7 +30,7 @@ li,a{
     font-weight: bold;
     background-color: rgb(255, 10, 10);
     border-radius:10px ;
-    text-align: center;
+   
     padding: 19px;
     
 }
