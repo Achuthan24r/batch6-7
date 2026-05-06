@@ -20,15 +20,17 @@ ul{
     color: black;
     font-size: 20px;
     font-weight: bold;
-    background-color: rgb(255, 10, 10);
-    
+    background-color: transparent;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
  }
 li,a{
     text-decoration-line: none;
     color: black;
     font-size: 20px;
     font-weight: bold;
-    background-color: rgb(255, 10, 10);
+    background-color: transparent;
     border-radius:10px ;
    
     padding: 19px;
@@ -42,7 +44,7 @@ body{    background-image: url("https://www.worldatlas.com/r/w1200/upload/8b/72/
     }
 
 button{
-    background-color: rgb(255, 10, 10);
+    background-color:transparent;
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -54,16 +56,16 @@ button{
 
 }
 button:hover{
-    background-color: rgb(255, 119, 0);
-    color: white;
+    background-color: transparent;
+    color: transparent;
     cursor: pointer;
-    text-shadow: 2px 2px 4px rgba(228, 203, 203, 0.8);
+    text-shadow: 2px 2px 4px rgba(255, 248, 248, 0.8);
     box-shadow: 2px 2px 4px rgba(220, 0, 0, 0.8);
 }
 li:hover{
-    background-color: rgb(255, 8, 0);
+    background-color: transparent;
     color: white;
     cursor: pointer;
-    text-shadow: 2px 2px 4px rgba(255, 5, 5, 0.8);
+    text-shadow: 2px 2px 4px rgba(253, 253, 255, 0.8);
     box-shadow: 2px 2px 4px rgba(220, 0, 0, 0.8);
 }
